@@ -10,8 +10,9 @@ script:
 
 deploy:
   - provider: elasticbeanstalk
-  - access_key_id: $AWS_ACCESS_KEY
-  - secret_access_key: $AWS_SECRET_KEY
+  - access_key_id: "AKIATTIO7ZPOWYVM47QT"
+  - secret_access_key:
+      secure: "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" 
   - region: "us-west-2"
   - app: "knowledgebase"
   - env: "Knowledgebase-env"

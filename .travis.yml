@@ -3,4 +3,4 @@ services:
   - docker
 
 before_install:
- - docker build -t harpreetbrar1/knowledgeBase2 -f Dockerfile.dev .
+ - docker build -t harpreetbrar1/knowledgebase2 -f Dockerfile.dev .

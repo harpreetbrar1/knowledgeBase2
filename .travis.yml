@@ -4,3 +4,6 @@ services:
 
 before_install:
  - docker build -t harpreetbrar1/knowledgebase2 -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true harpreetbrar1/knowledgebase2 npm run test 
